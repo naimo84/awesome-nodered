@@ -25,7 +25,3 @@
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
-## License
-
-This list is under the [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) License.
