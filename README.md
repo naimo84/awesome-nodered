@@ -6,6 +6,7 @@
 
 - [Nodes](#nodes)
 - [Community](#community)
+- [Contribute](#contribute)
 
 ## Nodes
 
