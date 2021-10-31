@@ -1,4 +1,4 @@
-# Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [<img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED">](https://nodered.org)
 
 > Curated list of useful resources for Node-RED.
 
