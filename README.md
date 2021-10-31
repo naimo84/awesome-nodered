@@ -1,6 +1,10 @@
 # Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Curated list of useful resources for Node-RED
+> Curated list of useful resources for Node-RED.
+
+[Node-RED](https://nodered.org/) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+
+It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
 ## Contents
 
