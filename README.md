@@ -36,12 +36,16 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
 - [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
 
+**[⬆ back to top](#contents)**
+
 ## Nodes
 
 ### Analysis
 
 - [node-red-node-badwords](https://github.com/node-red/node-red-nodes/tree/master/analysis/swearfilter) - Analyses the payload and tries to filter out any messages containing bad swear words. This only operates on payloads of type string. Everything else is blocked.
 - [node-red-node-wordpos](https://github.com/node-red/node-red-nodes/tree/master/analysis/wordpos) - Analyses the payload and classifies the part-of-speech of each word. The resulting message has msg.pos added with the results. A word may appear in multiple categories (eg, 'great' is both a noun and an adjective).
+
+**[⬆ back to top](#contents)**
 
 ### Database
 
@@ -50,10 +54,12 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-stackhero-influxdb-v2](https://github.com/stackhero-io/node-red-contrib-stackhero-influxdb-v2) - Save and query data from an InfluxDB v2 time series database.
 - [node-red-contrib-stackhero-mysql](https://github.com/stackhero-io/node-red-contrib-stackhero-mysql) - Connect to a MySQL or a MariaDB database, using TLS (SSL) and compatible with "Caching SHA2 password" authentication method (MySQL >= 8).
 
+**[⬆ back to top](#contents)**
 ### Development
 
 - [node-red-node-typescript-starter](https://github.com/alexk111/node-red-node-typescript-starter) - Quick-start template repository for creating new node sets in TypeScript.
 
+**[⬆ back to top](#contents)**
 ### Function
 
 - [node-red-node-datagenerater](https://github.com/node-red/node-red-nodes/tree/master/function/datagenerator) - A node that can generate dummy data in various formats, names, addresses, emails, numbers, words, etc.
@@ -62,6 +68,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-node-rbe](https://github.com/node-red/node-red-nodes/tree/master/function/rbe) - A simple node to provide report by exception and deadband / bandgap capability for simple inputs.
 - [node-red-node-smooth](https://github.com/node-red/node-red-nodes/tree/master/function/smooth) - A simple node to provide various functions across several previous values, including max, min, mean, high and low pass filters.
 
+**[⬆ back to top](#contents)**
 
 ### Hardware
 
@@ -85,6 +92,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-node-wemo](https://github.com/node-red/node-red-nodes/tree/master/hardware/wemo) - Basic node to drive a [WeMo](https://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/) socket and switch. Does not use discovery.
 - [node-red-node-scanBLE](https://github.com/node-red/node-red-nodes/tree/master/hardware/scanBLE) - Scans for a particular Bluetooth Low Energy (BLE) device.
 
+**[⬆ back to top](#contents)**
 ### I/O
 
 - [node-red-node-discovery](https://github.com/node-red/node-red-nodes/tree/master/io/mdns) - Discovers other Avahi/Bonjour services on the network.
@@ -101,6 +109,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-node-wol](https://github.com/node-red/node-red-nodes/tree/master/io/wol) - Sends a Wake-On-LAN magic packet to the mac address specified. You may instead set msg.mac to dynamically set the target device mac to wake up.
 - [node-red-contrib-xiaomi-ble](https://github.com/eschava/node-red-contrib-xiaomi-ble) - Single "Xiaomi BLE" node that gets all known data from Xiaomi BLE (Bluetooth 4) devices using Bluetooth 4 compatible adapter.
 
+**[⬆ back to top](#contents)**
 
 ### Parsers
 
@@ -108,6 +117,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-node-geohash](https://github.com/node-red/node-red-nodes/tree/master/parsers/geohash) - Converts a lat, lon payload to/from geohash format.
 - [node-red-node-msgpack](https://github.com/node-red/node-red-nodes/tree/master/parsers/msgpack) - Converts a payload to/from msgpack binary packed format.
 - [node-red-node-what3words](https://github.com/node-red/node-red-nodes/tree/master/parsers/what3words) - Encodes or Decodes a lat, lon position into what3words text format.
+
+**[⬆ back to top](#contents)**
 
 ### Smarthome
 
@@ -141,6 +152,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-zigbee2mqtt](https://github.com/andreypopov/node-red-contrib-zigbee2mqtt) - Zigbee2mqtt connectivity.
 - [node-red-contrib-zwave-js](https://github.com/zwave-js/node-red-contrib-zwave-js) - Integrates Z-Wave node based on Z-Wave JS.
 
+**[⬆ back to top](#contents)**
+
 ### Social
 
 - [node-red-contrib-discord-advanced](https://github.com/Markoudstaal/node-red-contrib-discord-advanced) - Interact with Discord, via Discord.js.
@@ -160,17 +173,23 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-whatsappbot](https://github.com/robertsLando/node-red-contrib-whatsappbot) - Whatsapp Bot.
 - [node-red-node-xmpp](https://github.com/node-red/node-red-nodes/tree/master/social/xmpp) - Connects to an XMPP server to send and receive messages.
 
+**[⬆ back to top](#contents)**
+
 ### Storage
 
 - [node-red-node-leveldb](https://github.com/node-red/node-red-nodes/tree/master/storage/leveldb) - Uses LevelDB for a simple key value pair database.
 - [node-red-node-mysql](https://github.com/node-red/node-red-nodes/tree/master/storage/mysql) - Allows basic access to a MySQL database. This node uses the **query** operation against the configured database. This does allow both INSERTS and DELETES. By it's very nature it allows SQL injection. *so be careful out there*
 - [node-red-node-sqlite](https://github.com/node-red/node-red-nodes/tree/master/storage/sqlite) - Supports read and write to a local sqlite database.
 
+**[⬆ back to top](#contents)**
+
 ### System
 
 - [node-red-contrib-aedes](https://github.com/martin-doyle/node-red-contrib-aedes) - MQTT Broker based on Aedes.
 - [node-red-contrib-dockerode](https://github.com/naimo84/node-red-contrib-dockerode) - Connects to Docker daemon.
 - [node-red-contrib-os](https://github.com/Argonne-National-Laboratory/node-red-contrib-os) - Obtain system information.
+
+**[⬆ back to top](#contents)**
 
 ### Time
 
@@ -179,6 +198,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-simpletime](https://github.com/Paul-Reed/node-red-contrib-simpletime) - Adds time and date payloads with various formatting options, which can be retreived and used later in the flow.
 - [node-red-contrib-sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) - Timer based flow control with dusk, dawn (and variations) and much more. Additional you can get sun and moon position or to control a flow by sun or moon position.
 - [node-red-node-timeswitch](https://github.com/node-red/node-red-nodes/tree/master/time/timeswitch) - Lets the user set simple repeating timers for example for simple heating control, etc.
+
+**[⬆ back to top](#contents)**
 
 ### Utility
 
@@ -200,6 +221,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-users](https://github.com/SenseTecnic/node-red-contrib-users) - This node allows developers to quickly build a very simple user access control for their HTTP-based flows. Using this node, you can limit access to the HTTP endpoints (http in nodes) in your flows to a list of users that you configure yourself. The node adds the current user to the request message so that you can serve different responses depending on the username or a custom "scope" field of the user who is logged in.
 - [node-red-node-watson](https://github.com/watson-developer-cloud/node-red-node-watson) - Interact with the IBM Watson services in IBM Cloud.
 
+**[⬆ back to top](#contents)**
+
 ### UI
 
 - [node-red-contrib-browser-utils](https://github.com/ibm-early-programs/node-red-contrib-browser-utils) - Add browser functionality such as file upload, camera & microphone.
@@ -208,7 +231,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-uibuilder](https://github.com/TotallyInformation/node-red-contrib-uibuilder) - Provide an easy to use way to create dynamic web interfaces using any (or no) front end libraries for convenience.
 - [node-red-contrib-web-worldmap](https://github.com/dceejay/RedMap) - Provide a world map web page for plotting "things" on.
 
-
+**[⬆ back to top](#contents)**
 
 ## Community
 
@@ -220,6 +243,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [Redmatic Forum](https://homematic-forum.de/forum/viewforum.php?f=77)
 - [HomeAssistant Forum](https://community.home-assistant.io/c/third-party/node-red/31)
 - [Steves Node-Red Guide](https://stevesnoderedguide.com/)
+
+**[⬆ back to top](#contents)**
 
 ## Contribute
 
