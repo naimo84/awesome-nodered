@@ -22,7 +22,144 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
 ## Nodes
 
-- [node-red-node-typescript-starter](https://github.com/alexk111/node-red-node-typescript-starter) - Quick-start template repository for creating new node sets in TypeScript.
+- [node-red-nodes](https://github.com/node-red/node-red-nodes) - Preinstalled nodes.
+    ### Analysis
+
+    - [node-red-node-badwords](https://github.com/node-red/node-red-nodes/tree/master/analysis/swearfilter) - Analyses the payload and tries to filter out any messages containing bad swear words. This only operates on payloads of type string. Everything else is blocked.
+
+    - [node-red-node-wordpos](https://github.com/node-red/node-red-nodes/tree/master/analysis/wordpos) - Analyses the payload and classifies the part-of-speech of each word. The resulting message has msg.pos added with the results. A word may appear in multiple categories (eg, 'great' is both a noun and an adjective).
+
+    ### Function
+
+    - [node-red-node-datagenerater](https://github.com/node-red/node-red-nodes/tree/master/function/datagenerator)  - A node that can generate dummy data in various formats, names, addresses, emails, numbers, words, etc
+
+    - [node-red-node-pidcontrol](https://github.com/node-red/node-red-nodes/tree/master/function/PID)  - A PID control node for numeric inputs - provides simple contoll loop feedback capability.
+
+    - [node-red-node-random](https://github.com/node-red/node-red-nodes/tree/master/function/random)  - A simple random number generator - can generate integers for x to y - or floats between x and y.
+
+    - [node-red-node-rbe](https://github.com/node-red/node-red-nodes/tree/master/function/rbe)  - A simple node to provide report by exception and deadband / bandgap capability for simple inputs.
+
+    - [node-red-node-smooth](https://github.com/node-red/node-red-nodes/tree/master/function/smooth)  - A simple node to provide various functions across several previous values, including max, min, mean, high and low pass filters.
+
+
+    ### Hardware
+
+    - [node-red-node-arduino](https://github.com/node-red/node-red-nodes/tree/master/hardware/Arduino) - A collection of analogue & digital input & output nodes for the Arduino board - uses firmata protocol to talk to the board.
+
+    - [node-red-node-beaglebone](https://github.com/node-red/node-red-nodes/tree/master/hardware/BBB) - A collection of analogue & digital input & output nodes for the [Beaglebone Black](http://beagleboard.org/black).
+
+    - [node-red-node-blink1](https://github.com/node-red/node-red-nodes/tree/master/hardware/blink1) - Provides support for the [Blink1](http://blink1.thingm.com/) USB LED from ThingM.
+
+    - [node-red-node-blinkstick](https://github.com/node-red/node-red-nodes/tree/master/hardware/blinkstick) - Provides support for the [BlinkStick](http://www.blinkstick.com/) USB LED device.
+
+    - [node-red-node-digirgb](https://github.com/node-red/node-red-nodes/tree/master/hardware/digiRGB) - Provides support for the DigiSpark RGB USB LED.
+
+    - [node-red-node-heatmiser](https://github.com/node-red/node-red-nodes/tree/master/hardware/heatmiser) - Read and writes settings for temperature and frost protection to Heatmiser thermostats.
+
+    - [node-red-node-intel-galileo](https://github.com/node-red/node-red-nodes/tree/master/hardware/intel) - A collection of analogue & digital input & output nodes for the Intel Galileo and Edison.
+
+    - [node-red-node-ledborg](https://github.com/node-red/node-red-nodes/tree/master/hardware/LEDborg) - A simple driver for the [LEDborg](https://www.piborg.org/ledborg) plug on module for Raspberry Pi.
+
+    - [node-red-node-makeymakey](https://github.com/node-red/node-red-nodes/tree/master/hardware/makey) - A Node-RED node to read from a [MakeyMakey](http://www.makeymakey.com/) input device.
+
+    - [node-red-node-pi-gpiod](https://github.com/node-red/node-red-nodes/tree/master/hardware/pigpiod) - An alternative to the default PI GPIO nodes that allows remote access - so a host machine can access a remote Pi (via network) and is better for driving multiple servos.
+
+    - [node-red-node-pi-mcp3008](https://github.com/node-red/node-red-nodes/tree/master/hardware/mcp3008) - Allows A Raspberry Pi to node to read from MCP300x series Analogue to Digital Converter chips via the SPI bus.
+
+    - [node-red-node-pi-neopixel](https://github.com/node-red/node-red-nodes/tree/master/hardware/neopixel) - Allows A Raspberry Pi to drive a strip of NeoPixels directly.
+
+    - [node-red-node-pi-unicorn-hat](https://github.com/node-red/node-red-nodes/tree/master/hardware/unicorn) - Lets a Raspbeery Pi control a Pimorini Unicorn HAT 8x8 LED display.
+
+    - [node-red-node-pibrella](https://github.com/node-red/node-red-nodes/tree/master/hardware/Pibrella) - Controls a [Pibrella](http://pibrella.com/) add-on board for a Raspberry-Pi.
+
+    - [node-red-node-piface](https://github.com/node-red/node-red-nodes/tree/master/hardware/PiFace) - Adds support for the [PiFace](http://www.piface.org.uk/) interface module for Raspberry Pi.
+
+    - [node-red-node-piliter](https://github.com/node-red/node-red-nodes/tree/master/hardware/PiLiter) - Controls a Pimorini Pi-LITEr 8 LED add-on board for a Raspberry-Pi.
+
+    - [node-red-node-sensortag](https://github.com/node-red/node-red-nodes/tree/master/hardware/sensorTag) - Reads data from the Ti Bluetooh Low Energy (BLE) SensorTag device.
+
+    - [node-red-node-wemo](https://github.com/node-red/node-red-nodes/tree/master/hardware/wemo) - Basic node to drive a [WeMo](http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/) socket and switch. Does not use discovery.
+
+    - [n/A](https://github.com/node-red/node-red-nodes/tree/master/hardware/scanBLE) - Scans for a particular Bluetooth Low Energy (BLE) device.
+
+    ### I/O
+
+    - [node-red-node-discovery](https://github.com/node-red/node-red-nodes/tree/master/io/mdns) - discovers other Avahi/Bonjour services on the network.
+
+    - [node-red-node-emoncms](https://github.com/node-red/node-red-nodes/tree/master/io/emoncms) - Adds node to post to an [Emoncms](http://emoncms.org/) server.
+
+    - [node-red-node-mqlight](https://github.com/node-red/node-red-nodes/tree/master/io/mqlight) - Adds nodes to send and receive using MQlight.
+
+    - [node-red-node-ping](https://github.com/node-red/node-red-nodes/tree/master/io/ping) - Pings a machine and returns the trip time in mS. Returns false if no response received within 3 seconds, or if the host is unresolveable. Default ping is every 20 seconds but can be configured.
+
+    - [node-red-node-serialport](https://github.com/node-red/node-red-nodes/tree/master/io/serialport) - Node to send messages to and receive messages from a physical serial port.
+
+    - [node-red-node-snmp](https://github.com/node-red/node-red-nodes/tree/master/io/snmp) - Adds simple snmp receivers for single OIDs or OID tables.
+
+    - [node-red-node-stomp](https://github.com/node-red/node-red-nodes/tree/master/io/stomp) - A Node-RED node to publish and subscribe to and from a [STOMP server](https://stomp.github.io/implementations.html#STOMP_Servers).
+
+    - [node-red-node-wol](https://github.com/node-red/node-red-nodes/tree/master/io/wol) - Sends a Wake-On-LAN magic packet to the mac address specified. You may instead set msg.mac to dynamically set the target device mac to wake up.
+
+
+    ### Parsers
+
+    - [node-red-node-base64](https://github.com/node-red/node-red-nodes/tree/master/parsers/base64) - Converts a payload to/from base64 encoded format.
+
+    - [node-red-node-geohash](https://github.com/node-red/node-red-nodes/tree/master/parsers/geohash) - Converts a lat, lon payload to/from geohash format.
+
+    - [node-red-node-msgpack](https://github.com/node-red/node-red-nodes/tree/master/parsers/msgpack) - Converts a payload to/from msgpack binary packed format.
+
+    - [node-red-node-what3words](https://github.com/node-red/node-red-nodes/tree/master/parsers/what3words) - Encodes or Decodes a lat, lon position into what3words text format.
+
+    ### Social
+
+    - [node-red-node-dweetio](https://github.com/node-red/node-red-nodes/tree/master/social/dweetio) - Uses [dweetio](https://dweet.io/) to send/receive messages.
+
+    - [node-red-node-email](https://github.com/node-red/node-red-nodes/tree/master/social/email) - Sends and receives simple emails from services like gmail or smtp or imap servers.
+
+    - [node-red-node-feedparser](https://github.com/node-red/node-red-nodes/tree/master/social/feedparser) - Reads messages from an atom or rss feed.
+
+    - [node-red-node-irc](https://github.com/node-red/node-red-nodes/tree/master/social/irc) - Connects to an IRC server to send and receive messages.
+
+    - [node-red-node-nma](https://github.com/node-red/node-red-nodes/tree/master/social/nma) - DEPRECATED as NMA closed down operations.
+
+    - [node-red-node-notify](https://github.com/node-red/node-red-nodes/tree/master/social/notify) - Uses [Growl](http://growl.info/) to provide a desktop popup containing the payload. Only useful on the local Apple machine.
+
+    - [node-red-node-prowl](https://github.com/node-red/node-red-nodes/tree/master/social/prowl) - Uses [Prowl](http://www.prowlapp.com/) to push the payload to an Apple device that has the Prowl app installed.
+
+    - [node-red-node-pushbullet](https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet) - Uses [PushBullet](https://www.pushbullet.com/) to push the payload to an Android device that has the [PushBullet](https://www.pushbullet.com/) app installed.
+
+    - [node-red-node-pusher](https://github.com/node-red/node-red-nodes/tree/master/social/pusher) - Publish-Subscribe to a [Pusher](http://pusher.com/) channel/event.
+
+    - [node-red-node-pushover](https://github.com/node-red/node-red-nodes/tree/master/social/pushover) - Sends alerts via [Pushover](https://pushover.net/).
+
+    - [node-red-node-twilio](https://github.com/node-red/node-red-nodes/tree/master/social/twilio) - Uses [Twilio](https://www.twilio.com/) service to send/receive text messages.
+
+    - [node-red-node-twitter](https://github.com/node-red/node-red-nodes/tree/master/social/twitter) - Listens to Twitter feeds and can also send tweets. ([nOTE**: this will break soon when Twitter remove their streaming API)
+
+    - [node-red-node-xmpp](https://github.com/node-red/node-red-nodes/tree/master/social/xmpp) - Connects to an XMPP server to send and receive messages.
+
+
+    ### Storage
+
+    - [node-red-node-leveldb](https://github.com/node-red/node-red-nodes/tree/master/storage/leveldb) - Uses LevelDB for a simple key value pair database.
+
+    - [node-red-node-mysql](https://github.com/node-red/node-red-nodes/tree/master/storage/mysql) - Allows basic access to a MySQL database. This node uses the **query** operation against the configured database. This does allow both INSERTS and DELETES. By it's very nature it allows SQL injection... *so be careful out there...*
+
+    - [node-red-node-sqlite](https://github.com/node-red/node-red-nodes/tree/master/storage/sqlite) - Supports read and write to a local sqlite database.
+
+    ### Time
+
+    - [node-red-node-suncalc](https://github.com/node-red/node-red-nodes/tree/master/time/suncalc) - Uses the suncalc module to generate an output at sunrise and sunset based on a specified location. Several choices of definition of sunrise and sunset are available.
+
+    - [node-red-node-timeswitch](https://github.com/node-red/node-red-nodes/tree/master/time/timeswitch) - Lets the user set simple repeating timers for example for simple heating control, etc.
+
+    ### Utility
+
+    - [node-red-node-daemon](https://github.com/node-red/node-red-nodes/tree/master/utility/daemon) - starts up (calls) a long running system program and pipes STDIN, STDOUT and STDERR to and from that process. Good for monitoring long running command line applications,
+
+    - [node-red-node-exif](https://github.com/node-red/node-red-nodes/tree/master/utility/exif) - Extracts GPS and other EXIF information from a passed in jpeg image,
+
 - [node-red-contrib-aedes](https://github.com/martin-doyle/node-red-contrib-aedes) - MQTT Broker based on Aedes.
 - [node-red-contrib-actionflows](https://github.com/Steveorevo/node-red-contrib-actionflows) - Brings easy to use loops and OOP (object oriented programming) features.
 - [node-red-contrib-alarm](https://github.com/Anamico/node-red-contrib-alarm) - Build your own home alarm system with any number of panels, zones, sensors, triggers and automations.
@@ -80,6 +217,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-zigbee](https://github.com/hobbyquaker/node-red-contrib-zigbee) - Control Zigbee Devices via a CC253x Module.
 - [node-red-contrib-zigbee2mqtt](https://github.com/andreypopov/node-red-contrib-zigbee2mqtt) - Zigbee2mqtt connectivity.
 - [node-red-contrib-zwave-js](https://github.com/zwave-js/node-red-contrib-zwave-js) - Integrates Z-Wave node based on Z-Wave JS.
+- [node-red-node-typescript-starter](https://github.com/alexk111/node-red-node-typescript-starter) - Quick-start template repository for creating new node sets in TypeScript.
+
 ## Community
 
 - [Node-RED Forum](https://discourse.nodered.org/)
