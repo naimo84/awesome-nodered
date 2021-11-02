@@ -31,15 +31,15 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
     ### Function
 
-    - [node-red-node-datagenerater](https://github.com/node-red/node-red-nodes/tree/master/function/datagenerator)  - A node that can generate dummy data in various formats, names, addresses, emails, numbers, words, etc
+    - [node-red-node-datagenerater](https://github.com/node-red/node-red-nodes/tree/master/function/datagenerator) - A node that can generate dummy data in various formats, names, addresses, emails, numbers, words, etc.
 
-    - [node-red-node-pidcontrol](https://github.com/node-red/node-red-nodes/tree/master/function/PID)  - A PID control node for numeric inputs - provides simple contoll loop feedback capability.
+    - [node-red-node-pidcontrol](https://github.com/node-red/node-red-nodes/tree/master/function/PID) - A PID control node for numeric inputs - provides simple contoll loop feedback capability.
 
-    - [node-red-node-random](https://github.com/node-red/node-red-nodes/tree/master/function/random)  - A simple random number generator - can generate integers for x to y - or floats between x and y.
+    - [node-red-node-random](https://github.com/node-red/node-red-nodes/tree/master/function/random) - A simple random number generator - can generate integers for x to y - or floats between x and y.
 
-    - [node-red-node-rbe](https://github.com/node-red/node-red-nodes/tree/master/function/rbe)  - A simple node to provide report by exception and deadband / bandgap capability for simple inputs.
+    - [node-red-node-rbe](https://github.com/node-red/node-red-nodes/tree/master/function/rbe) - A simple node to provide report by exception and deadband / bandgap capability for simple inputs.
 
-    - [node-red-node-smooth](https://github.com/node-red/node-red-nodes/tree/master/function/smooth)  - A simple node to provide various functions across several previous values, including max, min, mean, high and low pass filters.
+    - [node-red-node-smooth](https://github.com/node-red/node-red-nodes/tree/master/function/smooth) - A simple node to provide various functions across several previous values, including max, min, mean, high and low pass filters.
 
 
     ### Hardware
@@ -84,7 +84,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
     ### I/O
 
-    - [node-red-node-discovery](https://github.com/node-red/node-red-nodes/tree/master/io/mdns) - discovers other Avahi/Bonjour services on the network.
+    - [node-red-node-discovery](https://github.com/node-red/node-red-nodes/tree/master/io/mdns) - Discovers other Avahi/Bonjour services on the network.
 
     - [node-red-node-emoncms](https://github.com/node-red/node-red-nodes/tree/master/io/emoncms) - Adds node to post to an [Emoncms](http://emoncms.org/) server.
 
@@ -127,7 +127,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
     - [node-red-node-prowl](https://github.com/node-red/node-red-nodes/tree/master/social/prowl) - Uses [Prowl](http://www.prowlapp.com/) to push the payload to an Apple device that has the Prowl app installed.
 
-    - [node-red-node-pushbullet](https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet) - Uses [PushBullet](https://www.pushbullet.com/) to push the payload to an Android device that has the [PushBullet](https://www.pushbullet.com/) app installed.
+    - [node-red-node-pushbullet](https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet) - Uses [PushBullet](https://www.pushbullet.com/) to push the payload to an Android device that has the app installed.
 
     - [node-red-node-pusher](https://github.com/node-red/node-red-nodes/tree/master/social/pusher) - Publish-Subscribe to a [Pusher](http://pusher.com/) channel/event.
 
@@ -144,7 +144,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
     - [node-red-node-leveldb](https://github.com/node-red/node-red-nodes/tree/master/storage/leveldb) - Uses LevelDB for a simple key value pair database.
 
-    - [node-red-node-mysql](https://github.com/node-red/node-red-nodes/tree/master/storage/mysql) - Allows basic access to a MySQL database. This node uses the **query** operation against the configured database. This does allow both INSERTS and DELETES. By it's very nature it allows SQL injection... *so be careful out there...*
+    - [node-red-node-mysql](https://github.com/node-red/node-red-nodes/tree/master/storage/mysql) - Allows basic access to a MySQL database. This node uses the **query** operation against the configured database. This does allow both INSERTS and DELETES. By it's very nature it allows SQL injection. *so be careful out there*
 
     - [node-red-node-sqlite](https://github.com/node-red/node-red-nodes/tree/master/storage/sqlite) - Supports read and write to a local sqlite database.
 
@@ -156,9 +156,9 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
     ### Utility
 
-    - [node-red-node-daemon](https://github.com/node-red/node-red-nodes/tree/master/utility/daemon) - starts up (calls) a long running system program and pipes STDIN, STDOUT and STDERR to and from that process. Good for monitoring long running command line applications,
+    - [node-red-node-daemon](https://github.com/node-red/node-red-nodes/tree/master/utility/daemon) - Starts up (calls) a long running system program and pipes STDIN, STDOUT and STDERR to and from that process. Good for monitoring long running command line applications.
 
-    - [node-red-node-exif](https://github.com/node-red/node-red-nodes/tree/master/utility/exif) - Extracts GPS and other EXIF information from a passed in jpeg image,
+    - [node-red-node-exif](https://github.com/node-red/node-red-nodes/tree/master/utility/exif) - Extracts GPS and other EXIF information from a passed in jpeg image.
 
 - [node-red-contrib-aedes](https://github.com/martin-doyle/node-red-contrib-aedes) - MQTT Broker based on Aedes.
 - [node-red-contrib-actionflows](https://github.com/Steveorevo/node-red-contrib-actionflows) - Brings easy to use loops and OOP (object oriented programming) features.
@@ -213,7 +213,6 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-whatsappbot](https://github.com/robertsLando/node-red-contrib-whatsappbot) - Whatsapp Bot.
 - [node-red-node-watson](https://github.com/watson-developer-cloud/node-red-node-watson) - Interact with the IBM Watson services in IBM Cloud.
 - [node-red-contrib-web-worldmap](https://github.com/dceejay/RedMap) - Provide a world map web page for plotting "things" on.
-- [node-red-node-wol](https://github.com/node-red/node-red-nodes) - Send Wake-On-LAN (WOL) magic packets.
 - [node-red-contrib-zigbee](https://github.com/hobbyquaker/node-red-contrib-zigbee) - Control Zigbee Devices via a CC253x Module.
 - [node-red-contrib-zigbee2mqtt](https://github.com/andreypopov/node-red-contrib-zigbee2mqtt) - Zigbee2mqtt connectivity.
 - [node-red-contrib-zwave-js](https://github.com/zwave-js/node-red-contrib-zwave-js) - Integrates Z-Wave node based on Z-Wave JS.
