@@ -24,9 +24,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
     - [Time](#time)
     - [Utility](#utility)
     - [UI](#ui)
-
 - [Community](#community)
-- [Contribute](#contribute)
 
 ## Installation
 
@@ -224,6 +222,6 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [Twitter](https://twitter.com/NodeRED)
 - [YouTube](https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA)
 
-## Contribute
+## Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
