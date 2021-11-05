@@ -203,6 +203,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 ### UI
 
 - [node-red-contrib-browser-utils](https://github.com/ibm-early-programs/node-red-contrib-browser-utils) - Add browser functionality such as file upload, camera & microphone.
+- [node-red-dashboard](https://github.com/node-red/node-red-dashboard) - Provides a set of nodes to quickly create a live data dashboard.
+    - [https://flows.nodered.org/collection](https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976) - Dashboard extra nodes
 - [node-red-contrib-flow-manager](https://flows.nodered.org/node/node-red-contrib-flow-manager) - Separates your flow json to multiple files.
 - [node-red-contrib-image-output](https://github.com/rikukissa/node-red-contrib-image-output) - Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor.
 - [node-red-contrib-uibuilder](https://github.com/TotallyInformation/node-red-contrib-uibuilder) - Provide an easy to use way to create dynamic web interfaces using any (or no) front end libraries for convenience.
