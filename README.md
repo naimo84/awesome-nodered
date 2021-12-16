@@ -180,6 +180,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 ### Time
 
 - [node-red-contrib-blindcontroller](https://github.com/alisdairjsmyth/node-red-contrib-blindcontroller) - Automate the control of household roller blinds based on the current position of the sun.
+- [node-red-contrib-bigtimer](https://github.com/scargill/node-red-contrib-bigtimer) - Timing node with support for dusk/sunset dawn/sunrise and variations also day/week/month (and special days) control. The node offers outputs suitable for MQTT, speech and databases.
 - [node-red-node-suncalc](https://github.com/node-red/node-red-nodes/tree/master/time/suncalc) - Uses the suncalc module to generate an output at sunrise and sunset based on a specified location. Several choices of definition of sunrise and sunset are available.
 - [node-red-contrib-simpletime](https://github.com/Paul-Reed/node-red-contrib-simpletime) - Adds time and date payloads with various formatting options, which can be retreived and used later in the flow.
 - [node-red-contrib-sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) - Timer based flow control with dusk, dawn (and variations) and much more. Additional you can get sun and moon position or to control a flow by sun or moon position.
