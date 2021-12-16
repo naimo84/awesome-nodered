@@ -8,9 +8,11 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
 ## Contents
 
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [Nodes](#nodes)
+- [Awesome Node-RED ![Awesome](https://awesome.re) <img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED">](#awesome-node-red--)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Documentation](#documentation)
+  - [Nodes](#nodes)
     - [Analysis](#analysis)
     - [Database](#database)
     - [Development](#development)
@@ -19,12 +21,13 @@ It provides a browser-based editor that makes it easy to wire together flows usi
     - [I/O](#io)
     - [Parsers](#parsers)
     - [Smarthome](#smarthome)
-    - [Social](#social)   
+    - [Social](#social)
     - [System](#system)
     - [Time](#time)
     - [Utility](#utility)
     - [UI](#ui)
-- [Community](#community)
+  - [Community](#community)
+  - [Contributing](#contributing)
 
 ## Installation
 
@@ -33,6 +36,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [c't-Smart-Home](https://github.com/ct-Open-Source/ct-Smart-Home) - A ready-to-use setup for home automation maintained by [german computer magazine c't](https://www.ct.de/smarthome).
 - [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
 - [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
+- [openHAB running on openHABian](https://www.openhab.org/docs/installation/openhabian.html) - Install Node-RED using openhab-config from command line, choose it from "Optional Components"
 
 ## Documentation
 
@@ -136,6 +140,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Control LG webOS Smart TVs.
 - [node-red-contrib-loxone](https://github.com/codmpm/node-red-contrib-loxone) - Connect to the Loxone Miniserver.
 - [node-red-contrib-knx-ultimate](https://github.com/Supergiovane/node-red-contrib-knx-ultimate) - Control your KNX intallation. Single Node KNX IN/OUT with optional ETS group address importer and gateway simulation. 
+- [node-red-contrib-openhab3](https://github.com/jeroenhendricksen/node-red-contrib-openhab3) - Integration of openHAB item states and commands
 - [node-red-contrib-smartnora](https://github.com/andrei-tatar/node-red-contrib-smartnora) - Google smart home Action integration via Smart NORA.
 - [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) - Control SONOS player in your local network.
 - [node-red-contrib-tado-client](https://github.com/mattdavis90/node-red-contrib-tado-client) - Connect to the Tado Web API.
