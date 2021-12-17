@@ -33,6 +33,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [c't-Smart-Home](https://github.com/ct-Open-Source/ct-Smart-Home) - A ready-to-use setup for home automation maintained by [german computer magazine c't](https://www.ct.de/smarthome).
 - [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
 - [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
+- [openHAB running on openHABian](https://www.openhab.org/docs/installation/openhabian.html) - Install Node-RED using openhab-config from command line, choose it from "Optional Components".
 
 ## Documentation
 
@@ -136,6 +137,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-contrib-lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Control LG webOS Smart TVs.
 - [node-red-contrib-loxone](https://github.com/codmpm/node-red-contrib-loxone) - Connect to the Loxone Miniserver.
 - [node-red-contrib-knx-ultimate](https://github.com/Supergiovane/node-red-contrib-knx-ultimate) - Control your KNX intallation. Single Node KNX IN/OUT with optional ETS group address importer and gateway simulation. 
+- [node-red-contrib-openhab3](https://github.com/jeroenhendricksen/node-red-contrib-openhab3) - Integration of openHAB item states and commands.
 - [node-red-contrib-smartnora](https://github.com/andrei-tatar/node-red-contrib-smartnora) - Google smart home Action integration via Smart NORA.
 - [node-red-contrib-sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) - Control SONOS player in your local network.
 - [node-red-contrib-tado-client](https://github.com/mattdavis90/node-red-contrib-tado-client) - Connect to the Tado Web API.
@@ -175,6 +177,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 ### Time
 
 - [node-red-contrib-blindcontroller](https://github.com/alisdairjsmyth/node-red-contrib-blindcontroller) - Automate the control of household roller blinds based on the current position of the sun.
+- [node-red-contrib-bigtimer](https://github.com/scargill/node-red-contrib-bigtimer) - Timing node with support for dusk/sunset dawn/sunrise and variations also day/week/month (and special days) control. The node offers outputs suitable for MQTT, speech and databases.
 - [node-red-node-suncalc](https://github.com/node-red/node-red-nodes/tree/master/time/suncalc) - Uses the suncalc module to generate an output at sunrise and sunset based on a specified location. Several choices of definition of sunrise and sunset are available.
 - [node-red-contrib-simpletime](https://github.com/Paul-Reed/node-red-contrib-simpletime) - Adds time and date payloads with various formatting options, which can be retreived and used later in the flow.
 - [node-red-contrib-sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) - Timer based flow control with dusk, dawn (and variations) and much more. Additional you can get sun and moon position or to control a flow by sun or moon position.
