@@ -1,17 +1,16 @@
 # Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED">
 
 > Curated list of useful resources for Node-RED.
+
 [Node-RED](https://nodered.org/) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 
 It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
 ## Contents
 
-- [Awesome Node-RED ![Awesome](https://awesome.re) <img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED">](#awesome-node-red--)
-  - [Contents](#contents)
-  - [Installation](#installation)
-  - [Documentation](#documentation)
-  - [Nodes](#nodes)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Nodes](#nodes)
     - [Analysis](#analysis)
     - [Database](#database)
     - [Development](#development)
@@ -20,13 +19,12 @@ It provides a browser-based editor that makes it easy to wire together flows usi
     - [I/O](#io)
     - [Parsers](#parsers)
     - [Smarthome](#smarthome)
-    - [Social](#social)
+    - [Social](#social)   
     - [System](#system)
     - [Time](#time)
     - [Utility](#utility)
     - [UI](#ui)
-  - [Community](#community)
-  - [Contributing](#contributing)
+- [Community](#community)
 
 ## Installation
 
