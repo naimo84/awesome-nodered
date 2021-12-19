@@ -1,4 +1,4 @@
-# Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED">
+# Awesome Node-RED [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <a href="https://nodered.org/"><img src="https://nodered.org/about/resources/media/node-red-hexagon.png" width="200" align="right" alt="Node-RED"></a>
 
 > Curated list of useful resources for Node-RED.
 
@@ -19,7 +19,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
     - [I/O](#io)
     - [Parsers](#parsers)
     - [Smarthome](#smarthome)
-    - [Social](#social)   
+    - [Social](#social)
     - [System](#system)
     - [Time](#time)
     - [Utility](#utility)
