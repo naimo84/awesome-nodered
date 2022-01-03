@@ -33,7 +33,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [c't-Smart-Home](https://github.com/ct-Open-Source/ct-Smart-Home) - A ready-to-use setup for home automation maintained by [german computer magazine c't](https://www.ct.de/smarthome).
 - [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
 - [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
-- [openHAB running on openHABian](https://www.openhab.org/docs/installation/openhabian.html) - Install Node-RED using openhab-config from command line, choose it from "Optional Components".
+- [openHAB running on openHABian](https://www.openhab.org/docs/installation/openhabian.html#optional-components) - Install Node-RED using openhab-config from command line, choose it from "Optional Components".
 
 ## Documentation
 
