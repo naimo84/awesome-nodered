@@ -162,6 +162,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-node-pusher](https://github.com/node-red/node-red-nodes/tree/master/social/pusher) - Publish-Subscribe to a [Pusher](https://pusher.com/) channel/event.
 - [node-red-node-pushover](https://github.com/node-red/node-red-nodes/tree/master/social/pushover) - Sends alerts via [Pushover](https://pushover.net/).
 - [node-red-contrib-slack](https://github.com/yayadrian/node-red-slack) - Interact with the Slack API.
+- [node-red-contrib-sms77](https://github.com/sms77io/nodered-contrib-sms77) - Uses [sms77](https://www.sms77.io/) service for SMS, text-to-speech calls and number lookups.
 - [node-red-contrib-telegrambot](https://github.com/windkh/node-red-contrib-telegrambot) - Contains a receiver and a sender node which act as a Telegram Bot.
 - [node-red-node-twilio](https://github.com/node-red/node-red-nodes/tree/master/social/twilio) - Uses [Twilio](https://www.twilio.com/) service to send/receive text messages.
 - [node-red-node-twitter](https://github.com/node-red/node-red-nodes/tree/master/social/twitter) - Listens to Twitter feeds and can also send tweets. ([nOTE**: this will break soon when Twitter remove their streaming API)
