@@ -31,9 +31,10 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [Running locally](https://nodered.org/docs/getting-started/local)
 - [Running under Docker](https://github.com/node-red/node-red-docker)
 - [c't-Smart-Home](https://github.com/ct-Open-Source/ct-Smart-Home) - A ready-to-use setup for home automation maintained by [german computer magazine c't](https://www.ct.de/smarthome).
-- [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
-- [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts Node-RED instance within ioBroker and communicates with it.
+- [Home Assistant Community Add-on](https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023) - Starts an instance within Home Assistant and communicates with it.
+- [ioBroker node-red Adapter](https://github.com/ioBroker/ioBroker.node-red) - Starts an instance within ioBroker and communicates with it.
 - [openHAB running on openHABian](https://www.openhab.org/docs/installation/openhabian.html#optional-components) - Install Node-RED using openhab-config from command line, choose it from "Optional Components".
+- [RedMatic](https://github.com/rdmtc/RedMatic/wiki/Installation) - Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany.
 
 ## Documentation
 
@@ -209,6 +210,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [node-red-dashboard](https://github.com/node-red/node-red-dashboard) - Create a live data dashboard.
     - [https://flows.nodered.org/collection](https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976) - Dashboard extra nodes.
 - [flow-manager](https://flows.nodered.org/node/node-red-contrib-flow-manager) - Separates flow json to multiple files.
+- [iglass](https://www.npmjs.com/package/iglass-nodes) - Interaction with [iGlass Automation](https://iglass.international) blocks.
 - [image-output](https://github.com/rikukissa/node-red-contrib-image-output) - Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor.
 - [uibuilder](https://github.com/TotallyInformation/node-red-contrib-uibuilder) - Create dynamic web interfaces using any (or no) front end libraries for convenience.
 - [web-worldmap](https://github.com/dceejay/RedMap) - Provide a world map web page for plotting "things" on.
