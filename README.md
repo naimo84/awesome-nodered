@@ -168,6 +168,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [telegrambot](https://github.com/windkh/node-red-contrib-telegrambot) - Contains a receiver and a sender node which act as a Telegram Bot.
 - [twilio](https://github.com/node-red/node-red-nodes/tree/master/social/twilio) - Uses [Twilio](https://www.twilio.com/) service to send/receive text messages.
 - [whatsappbot](https://github.com/robertsLando/node-red-contrib-whatsappbot) - WhatsApp Bot.
+- [whin](https://github.com/inUtil-info/node-red-contrib-whin) - Send and receive whatsapps from within a nodered flow.
 - [xmpp](https://github.com/node-red/node-red-nodes/tree/master/social/xmpp) - Connect to an XMPP server to send and receive messages.
 
 ### System
