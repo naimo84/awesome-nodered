@@ -162,6 +162,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [pushbullet](https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet) - Uses [PushBullet](https://www.pushbullet.com/) to push an Android device that has the app installed.
 - [pusher](https://github.com/node-red/node-red-nodes/tree/master/social/pusher) - Publish-Subscribe to a [Pusher](https://pusher.com/) channel/event.
 - [pushover](https://github.com/node-red/node-red-nodes/tree/master/social/pushover) - Sends alerts via [Pushover](https://pushover.net/).
+- [PushStaq](https://github.com/pantchox/node-red-contrib-pushstaq) - Send real time alerts using Push Notifications from your Node-Red flows to any device with [PushStaq](https://www.pushstaq.com).
 - [slack](https://github.com/yayadrian/node-red-slack) - Interact with the Slack API.
 - [sms77](https://github.com/sms77io/nodered-contrib-sms77) - Uses [sms77](https://www.sms77.io/) service for SMS, text-to-speech calls and number lookups.
 - [telegrambot](https://github.com/windkh/node-red-contrib-telegrambot) - Contains a receiver and a sender node which act as a Telegram Bot.
