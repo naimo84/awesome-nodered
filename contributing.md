@@ -8,6 +8,7 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
+- If you add a contrib node, it has more than 10 Stars.
 - Search previous suggestions before making a new one, as yours may be a duplicate
 - Use `Node-RED` casing
 - If you just created something, wait at least a couple of weeks before submitting
