@@ -167,8 +167,8 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [sms77](https://github.com/sms77io/nodered-contrib-sms77) - Uses [sms77](https://www.sms77.io/) service for SMS, text-to-speech calls and number lookups.
 - [telegrambot](https://github.com/windkh/node-red-contrib-telegrambot) - Contains a receiver and a sender node which act as a Telegram Bot.
 - [twilio](https://github.com/node-red/node-red-nodes/tree/master/social/twilio) - Uses [Twilio](https://www.twilio.com/) service to send/receive text messages.
-- [whatsappbot](https://github.com/robertsLando/node-red-contrib-whatsappbot) - WhatsApp Bot.
 - [xmpp](https://github.com/node-red/node-red-nodes/tree/master/social/xmpp) - Connect to an XMPP server to send and receive messages.
+- [open-wa (whatsapp)](https://github.com/open-wa/node-red-contrib-wa-automate) - Efficiently connect to remote instances of your open-wa whatsapp automate servers.
 
 ### System
 
