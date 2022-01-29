@@ -139,6 +139,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [loxone](https://github.com/codmpm/node-red-contrib-loxone) - Connect to the Loxone Miniserver.
 - [knx-ultimate](https://github.com/Supergiovane/node-red-contrib-knx-ultimate) - Controls KNX intallation. With optional ETS group address importer and gateway simulation. 
 - [openhab3](https://github.com/jeroenhendricksen/node-red-contrib-openhab3) - Integration of openHAB item states and commands.
+- [power-saver](https://power-saver.smoky.no/) - Automatically save money on variable electricity prices.
 - [smartnora](https://github.com/andrei-tatar/node-red-contrib-smartnora) - Google smart home Action integration via Smart NORA.
 - [sonos-plus](https://github.com/hklages/node-red-contrib-sonos-plus) - Controls Sonos player in your local network.
 - [tado-client](https://github.com/mattdavis90/node-red-contrib-tado-client) - Connect to the Tado Web API.
