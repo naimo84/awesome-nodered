@@ -17,6 +17,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
     - [Function](#function)
     - [Hardware](#hardware)
     - [I/O](#io)
+    - [Image processing](#image-processing)
     - [Parsers](#parsers)
     - [Smarthome](#smarthome)
     - [Social](#social)
@@ -109,9 +110,15 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [wol](https://github.com/node-red/node-red-nodes/tree/master/io/wol) - Sends a Wake-On-LAN magic packet to the mac address specified.
 - [xiaomi-ble](https://github.com/eschava/node-red-contrib-xiaomi-ble) - Single "Xiaomi BLE" node that gets all known data from Xiaomi BLE (Bluetooth 4).
 
+### Image processing
+
+- [image-output](https://github.com/rikukissa/node-red-contrib-image-output) - Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor.
+- [image-tools](https://flows.nodered.org/node/node-red-contrib-image-tools) - Editing images, building and decoding 2D and 3D barcodes.
+
 ### Parsers
 
 - [base64](https://github.com/node-red/node-red-nodes/tree/master/parsers/base64) - Converts a payload to/from base64 encoded format.
+- [buffer-parser](https://flows.nodered.org/node/node-red-contrib-buffer-parser) - Converts values to and from buffer/array. Supports Big/Little Endian, BCD, byte swapping and much more.
 - [geohash](https://github.com/node-red/node-red-nodes/tree/master/parsers/geohash) - Converts a lat, lon payload to/from geohash format.
 - [msgpack](https://github.com/node-red/node-red-nodes/tree/master/parsers/msgpack) - Converts a payload to/from msgpack binary packed format.
 - [what3words](https://github.com/node-red/node-red-nodes/tree/master/parsers/what3words) - Encodes or Decodes a lat, lon position into what3words text format.
@@ -182,6 +189,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
 - [blindcontroller](https://github.com/alisdairjsmyth/node-red-contrib-blindcontroller) - Automate the control of household roller blinds based on the current position of the sun.
 - [bigtimer](https://github.com/scargill/node-red-contrib-bigtimer) - Timing node with support for dusk/sunset dawn/sunrise and variations also day/week/month (and special days) control. The node offers outputs suitable for MQTT, speech and databases.
+- [cron-plus](https://flows.nodered.org/node/node-red-contrib-cron-plus) - A flexible scheduler (cron, solar events, simple dates) node with full dynamic control and Timezone support.
 - [suncalc](https://github.com/node-red/node-red-nodes/tree/master/time/suncalc) - Uses the suncalc module to generate an output at sunrise and sunset based on a specified location. 
 - [simpletime](https://github.com/Paul-Reed/node-red-contrib-simpletime) - Adds time and date payloads with various formatting options, which can be retreived and used later in the flow.
 - [sun-position](https://github.com/rdmtc/node-red-contrib-sun-position) - Timer based flow control with dusk, dawn (and variations) and much more. Additional you can get sun and moon position or to control a flow by sun or moon position.
@@ -212,9 +220,10 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [browser-utils](https://github.com/ibm-early-programs/node-red-contrib-browser-utils) - Add browser functionality such as file upload, camera & microphone.
 - [node-red-dashboard](https://github.com/node-red/node-red-dashboard) - Create a live data dashboard.
     - [https://flows.nodered.org/collection](https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976) - Dashboard extra nodes.
+    - [ui-svg](https://flows.nodered.org/node/node-red-contrib-ui-svg) - Show interactive SVG (vector graphics) in the dashboard.
+    - [ui-contextmenu](https://flows.nodered.org/node/node-red-contrib-ui-contextmenu) - Show a popup contextmenu in the dashboard.
 - [flow-manager](https://flows.nodered.org/node/node-red-contrib-flow-manager) - Separates flow json to multiple files.
 - [iglass](https://www.npmjs.com/package/iglass-nodes) - Interaction with [iGlass Automation](https://iglass.international) blocks.
-- [image-output](https://github.com/rikukissa/node-red-contrib-image-output) - Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor.
 - [uibuilder](https://github.com/TotallyInformation/node-red-contrib-uibuilder) - Create dynamic web interfaces using any (or no) front end libraries for convenience.
 - [web-worldmap](https://github.com/dceejay/RedMap) - Provide a world map web page for plotting "things" on.
 
