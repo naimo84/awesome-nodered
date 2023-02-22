@@ -141,6 +141,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [homebridge-automation](https://github.com/NorthernMan54/node-red-contrib-homebridge-automation) - Integrate Homebridge Accessories into flows.
 - [homee](https://github.com/stfnhmplr/node-red-contrib-homee) - Access the homee api and create virtual devices for homee.
 - [homekit-bridged](https://github.com/NRCHKB/node-red-contrib-homekit-bridged) - Imitate HomeKit devices.
+- [hubitat](https://github.com/fblackburn1/node-red-contrib-hubitat) - Connect with Hubitat.
 - [huemagic](https://github.com/Foddy/node-red-contrib-huemagic) - Controls Philips Hue bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors.
 - [lgtv](https://github.com/hobbyquaker/node-red-contrib-lgtv) - Controls LG webOS Smart TVs.
 - [loxone](https://github.com/codmpm/node-red-contrib-loxone) - Connect to the Loxone Miniserver.
