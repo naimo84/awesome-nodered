@@ -167,6 +167,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [feedparser](https://github.com/node-red/node-red-nodes/tree/master/social/feedparser) - Reads messages from an atom or rss feed.
 - [irc](https://github.com/node-red/node-red-nodes/tree/master/social/irc) - Connect to an IRC server to send and receive messages.
 - [notify](https://github.com/node-red/node-red-nodes/tree/master/social/notify) - Uses [Growl](https://growl.info/) to provide a desktop popup. Only useful on the local Apple machine.
+- [overloop-cli](https://github.com/sortlist/overloop-cli) - AI-powered outbound engine. Source 450M+ contacts, launch email + LinkedIn campaigns, manage conversations. JSON output, agent-native.
 - [prowl](https://github.com/node-red/node-red-nodes/tree/master/social/prowl) - Uses [Prowl](https://www.prowlapp.com/) to push to an Apple device that has the Prowl app installed.
 - [pushbullet](https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet) - Uses [PushBullet](https://www.pushbullet.com/) to push an Android device that has the app installed.
 - [pusher](https://github.com/node-red/node-red-nodes/tree/master/social/pusher) - Publish-Subscribe to a [Pusher](https://pusher.com/) channel/event.
