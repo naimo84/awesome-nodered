@@ -242,6 +242,11 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 - [Twitter](https://twitter.com/NodeRED)
 - [YouTube](https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA)
 
+
+## Public Data APIs (Apify)
+
+- [Public Records automation recipes](https://github.com/GeminiGeorge22/publicrecords-automation-recipes) - Kestra, Prefect, Dagster, Pipedream, Windmill, Node-RED, Activepieces and Airbyte recipes that pull public data via Apify Actors on your own account.
+
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
